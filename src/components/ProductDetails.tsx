@@ -22,7 +22,7 @@ export default function ProductDetails({product}: ProductDetailsProps) {
             <td className="p-3 text-lg text-gray-800">
                 <fetcher.Form method="POST">
                     <button
-                        type="button"
+                        type="submit"
                         name="id"
                         value={product.id}
                         className={`${isAvailable? 'text-blue-800' : 'text-red-700'} w-full border border-gray-300 rounded-lg text-xs uppercase font-bold p-2 cursor-pointer`}
